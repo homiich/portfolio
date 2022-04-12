@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href=".css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+
     <title>WebStudio</title>
-    <header>
-        <div>
+    <header class="top-line">
+        <div class="high-line">
         <a href="https://webstudio.com"><h3>WebStudio</h3></a>
         </div>
-        <nav>
+        <nav class="nav-line">
             Студия
             Портфолио
             Контакт
@@ -20,49 +28,69 @@
 </head>
 <body>
     <!--Шапка-->
-    <main>
+    <main class="main-conteiner">
         <div>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="submit">Заказать услугу</button>
+            <h1 class="location-banner">Эффективные решения для вашего бизнеса</h1>
+            <button class="location-button" type="submit"> 
+                <span class="button-color">Заказать услугу</span>
+            </button>
         </div>
 
     </main>
     <!--Особенности-->
-    <div>
         <!--1-->
-        <h3>Внимание к деталям</h3>
-        <p>
-            Идейные соображения, а также начало повседневной работы по формированию позиции.
-        </p>
+        <div class="specification-1">
+            
+            <h3>Внимание к деталям</h3>
+            <p>
+                Идейные соображения, a также начало повседневной работы по формированию позиции.
+            </p>
+        </div>  
         <!--2-->
-        <h3>Пунктуальность</h3>
-        <p>
-            Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-        </p>
+        <div class="specification-2"> 
+            <h3>Пунктуальность</h3>
+            <p>
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+            </p>
+        </div>
         <!--3-->
-        <h3>Планирование</h3>
-        <p>
-            Равным образом консультация с широким активом в значительной степени обуславливает.
-        </p>
+        <div class="specification-3">
+            <h3>Планирование</h3>
+            <p>
+                Равным образом консультация c широким активом в значительной степени обуславливает.
+            </p>
+        </div>
         <!--4-->
-        <h3>Современные технологии</h3>
-        <p>
-            Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-        </p>
+        <div class="specification-4"> 
+            <h3>Современные технологии</h3>
+            <p>
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p> 
+        </div>
+        
     </div>
     <!--Чем мы занимаемся-->
     <div>
-        <h2>Чем мы занимаемся</h2>
-        <img src="images/img 1.png" alt="notebook"
+        <h2 class="what-we-do">Чем мы занимаемся</h2>
+        <img class="img-3" src="images/img 3.png" alt="notebook3"
         width="370">
-        <img src="images/img 2.png" alt="notebook2"
+        <img class="img-1" src="images/img 1.png" alt="notebook"
         width="370">
-        <img src="images/img 3.png" alt="notebook3"
+        <img class="img-2" src="images/img 2.png" alt="notebook2"
         width="370">
     </div>
     <!--Наша команда-->
-    <div>
-        <h2>Наша команда</h2>
+    <div class="our-team-section">
+        <h2> <span class="our-team">Наша команда</span></h2>
+        <figure class="card-1">
+            <img src="images/foto 1.jpg" alt="marisha"
+            width="270"
+            height="260">
+            <figcaption>
+              <h3>Марина Найдыш</h3>  
+                <h4>UI/UX, Motion Designer</h4>
+            </figcaption>
+        </figure>
         <figure>
             <img src="images/foto 4.jpg" alt="vlados"
             width="270"
@@ -70,15 +98,6 @@
             <figcaption>
                 <h3>Владислав Сопин</h3>
                 <h4>Programmer, Coder</h4>
-            </figcaption>
-        </figure>
-        <figure>
-            <img src="images/foto 1.jpg" alt="marisha"
-            width="270"
-            height="260">
-            <figcaption>
-              <h3>Марина Найдыш</h3>  
-                <h4>UI Designer</h4>
             </figcaption>
         </figure>
         <figure>
